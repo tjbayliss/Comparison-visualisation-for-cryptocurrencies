@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+	<html lang="en">
+  	
+  		<head>	
+        
+        <title>Scaled Symbols</title>
+    
+            <meta charset="utf-8">
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+
+            <link rel="stylesheet" href="css/knowledge.css">
+            <link rel="stylesheet" href="css/flag-icon.min.css">
+            <link rel="stylesheet" href="css/font-awesome.css">
+            <link rel="stylesheet" href="css/style.css" type="text/css" />
+            
+		</head>
+
+		<body> 
+            
+            
+            <div style="display:block">
+            </br></br>
+            <label class="trl-testParagraph">The market caps of many cryptocurrencies are pretty massive; many have market caps larger than the GDP of a mid-sized country. The table below takes the total market cap (including coins not in circulation) and shows where those cryptos would sit if they were a country. 
+            Use the visualisation below to explore how the share of some cryptocurrnecie scompare with the GDP of some countries of the world.</label>
+            </br></br>
+            </div>
+        
+            
+            <div style="display:inline-block">
+            <label class=""> Enter a country name </label>
+            </div>
+                     
+            <div id="the-basics" style="display:inline-block">
+                <input id= "typeahead" class="typeahead" type="text" placeholder="e.g. United Kingdom">
+            </div>
+            
+            <div style="display:inline-block">
+            <label>, or explore the visualisation with your mouse.</label>
+            </div>
+            
+            </br>
+            </br>
+	
+			<div class="wrapper"> 
+                <div class="trl-chart" id="trl-chart">
+                </div>
+                
+            
+                <div class="notes">
+                        <div class="more">
+                          <!--  <div class="trigger">Click to show data sources and methodology</div>
+                            <div class="reveal">
+                                <b>Data sources:</b>
+                                 <p> <b>Data sources: </b> Complete as appropriate</p>
+                               </div>-->
+                        </div>
+                    </div>
+        
+                    <div class="credits">
+                       <!-- Data sourcing and analytics by _____ <br>-->
+                        Data visualization by <a href="http://thomsonreuters.com/en/about-us/data-innovation-lab.html" target="_blank">Thomson Reuters Lab</a>
+                    </div>
+                
+            </div>
+            
+            
+            
+            <script>
+						
+				function resizeIframe(obj) {
+					obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+				}
+			
+			</script>
+
+        	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		 	<script src="js/modernizr.js"></script>
+			<script src="js/d3-v4.js" type='text/javascript'></script>
+            <script src="js/jquery-v3.2.1.js"></script> 
+			<script src="js/pym.js" charset="utf-8"></script>
+           
+            <script src="js/bootstrap.js"></script><!-- bootstrap-4 -->
+            
+            <script src="js/Underscore-1.8.3.js"></script>
+			<script src="js/scaledSymbols.js"></script>
+			<script src="js/useful.js"></script>
+			<script src="js/script.js"></script>
+
+		</body>
+
+	</html>
